@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
-			"X-API-KEY": process.env.EACH_AUTH_ID!,
+			"X-API-KEY": process.env.EACH_API_KEY!,
 		},
 		body: JSON.stringify({
 			parameters: {
@@ -54,7 +54,7 @@ export async function GET(req: NextRequest) {
 		method: "GET",
 		headers: {
 			"Content-Type": "application/json",
-			"X-API-KEY": process.env.EACH_AUTH_ID!,
+			"X-API-KEY": process.env.EACH_API_KEY!,
 		},
 	};
 
