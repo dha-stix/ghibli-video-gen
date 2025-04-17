@@ -8,7 +8,7 @@
   ```
 - Add your Eachlabs credentials to the `.env.local` file:
   ```env
-  EACH_AUTH_ID=
+  EACH_API_KEY=
   EACH_WORKFLOW_ID=
   ```
 - Start the development server
